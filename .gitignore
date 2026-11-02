@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Training results
+runs/
+wandb/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
